@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.mastec.at.NavigationDrawerFragment"
+    android:background="@color/navColor">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:id="@+id/logomanimout"
+        android:src="@drawable/mlogofull"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:visibility="invisible"/>
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:id="@+id/logomanimin"
+        android:src="@drawable/mlogoempty"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"/>
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/logozanim"
+        android:src="@drawable/at10logo"
+        android:layout_marginTop="34.5dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"/>
+
+
+</RelativeLayout>
