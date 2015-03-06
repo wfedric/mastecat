@@ -79,17 +79,22 @@ public class NavigationDrawerFragment extends android.support.v4.app.Fragment {
                     saveToPreferences(getActivity(), KEY_USER_LEARNED_DRAWER, mUserLearnedDrawer+"");
                 }
                 getActivity().invalidateOptionsMenu();
+
                 ImageView logoMout = (ImageView) containerView.findViewById(R.id.logomanimout);
                 ImageView logoMin = (ImageView) containerView.findViewById(R.id.logomanimin);
-                ImageView logoZ = (ImageView) containerView.findViewById(R.id.logozanim);
+                ImageView logoP14 = (ImageView) containerView.findViewById(R.id.logoP14);
+                ImageView logoP34 = (ImageView) containerView.findViewById(R.id.logoP34);
+
+
                 Animation animationmout = AnimationUtils.loadAnimation(getActivity(),R.anim.logo_m_anim_out);
                 Animation animationmin = AnimationUtils.loadAnimation(getActivity(), R.anim.logo_m_anim_in);
-                Animation animationz = AnimationUtils.loadAnimation(getActivity(), R.anim.logo_z_anim);
-
+                Animation animationP14 = AnimationUtils.loadAnimation(getActivity(), R.anim.p14slide);
+                Animation animationP34 = AnimationUtils.loadAnimation(getActivity(),R.anim.p34fade);
 
                 logoMout.startAnimation(animationmout);
                 logoMin.startAnimation(animationmin);
-                logoZ.startAnimation(animationz);
+                logoP14.startAnimation(animationP14);
+                logoP34.startAnimation(animationP34);
 
             }
 

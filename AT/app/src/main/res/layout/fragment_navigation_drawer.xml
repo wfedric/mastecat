@@ -3,34 +3,52 @@
     android:layout_height="match_parent" tools:context="com.mastec.at.NavigationDrawerFragment"
     android:background="@color/navColor">
 
-    <!-- TODO: Update blank fragment layout -->
+
     <ImageView
-        android:layout_width="240dp"
-        android:layout_height="100dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
         android:id="@+id/logomanimout"
-        android:src="@drawable/mlogofull"
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginStart="0dp"
-        android:visibility="invisible"/>
+        android:src="@drawable/mfull"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:visibility="visible"/>
     <ImageView
-        android:layout_width="240dp"
-        android:layout_height="100dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
         android:id="@+id/logomanimin"
-        android:src="@drawable/mlogoempty"
-        android:layout_marginTop="15dp"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"/>
+        android:src="@drawable/mempty"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:visibility="gone"/>
 
 
     <ImageView
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:id="@+id/logozanim"
-        android:src="@drawable/at10logo"
+        android:id="@+id/logoP14"
+        android:src="@drawable/logopart14"
         android:layout_marginTop="34.5dp"
         android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:visibility="visible"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/logoP34"
+        android:src="@drawable/logopart34"
+        android:layout_marginTop="35.5dp"
+        android:layout_marginLeft="13dp"
         android:layout_marginStart="13dp"/>
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:id="@+id/logoFLAT"
+        android:src="@drawable/logoflat"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"/>
 
 
 </RelativeLayout>
