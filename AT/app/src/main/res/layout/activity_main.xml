@@ -14,31 +14,12 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@color/homeColor"
         tools:context="com.mastec.at.MainActivity">
 
         <include
             android:id="@+id/app_bar"
             layout="@layout/app_bar" />
-
-
-
-            <android.support.v7.widget.CardView
-                android:layout_below="@id/app_bar"
-                android:id="@+id/at_card_view"
-                android:layout_width="280dp"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                app:cardElevation="10dp"
-                android:background="@color/navColor"
-                >
-
-
-
-
-            </android.support.v7.widget.CardView>
-
-
-
 
 
     </RelativeLayout>
