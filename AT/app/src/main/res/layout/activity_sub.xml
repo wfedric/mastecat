@@ -8,7 +8,7 @@
     layout="@layout/app_bar"/>
 
     <TextView
-        android:text="@string/hello_world"
+        android:text="@string/sub_activity"
         android:layout_below="@+id/app_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />

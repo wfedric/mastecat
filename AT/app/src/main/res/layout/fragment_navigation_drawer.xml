@@ -4,13 +4,17 @@
     android:background="@color/navColor">
 
 
-    <ImageView
-        android:layout_width="280dp"
-        android:layout_height="100dp"
-        android:id="@+id/logo"
-        android:src="@drawable/logo"
-        android:layout_marginTop="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginStart="0dp"
-        android:visibility="visible"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/categories_sidebar"
+        android:enabled="false"
+        android:minLines="1"
+        android:maxLines="1"
+        android:text="@string/categories"
+        android:textColor="@color/navColorText"
+        android:textSize="28sp"
+        android:gravity="center_horizontal"
+
+        />
 </RelativeLayout>
